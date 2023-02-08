@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 3rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div>
+        <img src="images/icon-star.svg" alt="the icon star" id="icon-star">
+      </div>
+      <h1>
+        How did we do?
+      </h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <form action="">
+        <div id="number-container">
+          <button id="btn-1" class="number-btn">1</button>
+          <button id="btn-2" class="number-btn">2</button>
+          <button id="btn-3" class="number-btn">3</button>
+          <button id="btn-4" class="number-btn">4</button>
+          <button id="btn-5" class="number-btn">5</button>
+        </div>
+        <button id="btn-submit">S U B M I T</button>
+      </form>
+    </div>
+  </main>
+
+  <section class="hide">
+    <img src="images/illustration-thank-you.svg" alt="svg img thank you">
+    <p id="p-selector">You selected X out of 5</p>
+    <h1>Thank you!</h1>
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch! 
+    </p>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/AngelOfDev13" target="_blank">Angel Villamizar</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
